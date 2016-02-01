@@ -1,0 +1,634 @@
+.red {
+    color: red;
+}
+
+.left {
+    float: left;
+}
+
+.refresh {
+    margin-left: 720px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    line-height: normal;
+    margin: 0 6px 15px;
+}
+
+.check-box {
+    padding: 0 5px;
+}
+
+#ajax-spinner {
+    display: none;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: grey;
+    border-radius: 50%;
+}
+
+.icon-arrow-left::before {
+    content: "<";
+}
+
+.icon-arrow-right::before {
+    content: ">";
+}
+
+table.dataTable thead > tr > th {
+    padding-right: 0;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    color: black;
+}
+
+.modal-dialog {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.modal-content {
+    margin: 0 auto;
+}
+
+.tiptext {
+    color: #069;
+    cursor: pointer;
+}
+
+.description {
+    display: none;
+    position: absolute;
+    border: none;
+    width: 50%;
+    height: 120%;
+    z-index: 120;
+    top: 0;
+    right: 30%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background: white;
+}
+
+.editable-container.editable-inline,
+.editable-container.editable-inline .control-group.form-group,
+.editable-container.editable-inline .control-group.form-group .editable-input,
+.editable-container.editable-inline .control-group.form-group .editable-input textarea,
+.editable-container.editable-inline .control-group.form-group .editable-input select,
+.editable-container.editable-inline .control-group.form-group .editable-input input:not([type=radio]):not([type=checkbox]):not([type=submit]) {
+    width: 95% !important;
+}
+
+/*td {*/
+/*white-space: nowrap;*/
+/*}*/
+
+.disable {
+    pointer-events: none;
+}
+
+.date-picker {
+    /*z-index: 1151 !important;*/
+}
+
+.has-feedback .form-control-feedback {
+    position: absolute;
+    top: 3px;
+    right: 15px;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+}
+
+/* 
+ * =======================================
+ * Todo Multiselect Dropdown css overwrite
+ * =======================================
+ */
+.todo-list .btn-group {
+    position: absolute;
+    left: 16px;
+    width: 15%;
+}
+
+.todo-list .multiselect.dropdown-toggle {
+    width: 100%;
+    padding: 5px 0 0 0;
+}
+
+.todo-list .multiselect-selected-text {
+    width: 76%;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+.todo-list .caret {
+    position: relative;
+    top: 6px;
+    display: inline;
+}
+
+/* 
+ * ==================================
+ * 
+ * ==================================
+ */
+
+.todo-calendar-date {
+    display: inline-block
+}
+
+.to-do-list-elememt {
+    position: relative;
+    float: right;
+    width: 85%;
+    padding-top: 5px;
+}
+
+.todo-list {
+    overflow: visible;
+}
+
+.box-inside .img-responsive {
+    margin: 0 auto;
+}
+
+.panel-empty {
+    width: 100%;
+    /*height: 400px; /!* for demo only *!/*/
+}
+
+.panel-empty-inside {
+    /*            display: table-cell; */
+    /*            text-align: center; */
+    vertical-align: middle;
+}
+
+.box-inside {
+
+    /*             display: inline-block; */
+    vertical-align: top;
+}
+
+.editable.editable-click.editable-empty, .editable-empty:hover, .editable-empty:focus {
+    color: #dd1144;
+    font-style: italic;
+    text-decoration: none;
+    border-bottom: 1px dashed #0088cc;
+}
+
+.editable.editable-click, a.editable-click, a.editable-click:hover {
+    /*border-bottom: 1px dashed #0088cc;*/
+    border-bottom: none;
+    text-decoration: none;
+    color: #777
+}
+
+/*.nav-tabs-custom > .tab-content {*/
+/*background-image: url("../image/57cf64be334597ac9fd2522f2cd898d0.jpg");*/
+/*}*/
+
+div.bg1 {
+    background-image: url("../image/3e0a73e5fd92d82076b7c13552adec1e.jpg");
+}
+
+div.bg2 {
+    background-image: url("../image/4f66c44f1ec5ebadd63b938ad0f5b68d.jpg");
+    background-repeat: no-repeat;
+}
+
+div.bg3 {
+    background-image: url("../image/05a0a6c86df87c89ae982034e269acc3.png");
+}
+
+div.bg4 {
+    background-image: url("../image/6ef0bd6cec3b8a28725e3304dbf8a4d6.jpg");
+}
+
+div.bg5 {
+    background-image: url("../image/44e0b69261ef5037f6406aaee5eca7b6.png");
+}
+
+div.bg6 {
+    background-image: url("../image/57cf64be334597ac9fd2522f2cd898d0.jpg");
+}
+
+div.bg7 {
+    background-image: url("../image/82a3d9da592ad127ee52f6814d8a41bc.jpg");
+}
+
+div.bg8 {
+    background-image: url("../image/287e43715f989a4286a91d1883cc926e.png");
+}
+
+div.bg9 {
+    background-image: url("../image/842e4000daa79fb8644ecdc46645be25.jpg");
+}
+
+div.bg10 {
+    background-image: url("../image/7943be6cfac5f5a0f8a1ea0c43560e29.jpg");
+}
+
+div.bg11 {
+    background-image: url("../image/34680130e55f4caaa4f5c9320f59c775.jpg");
+}
+
+div.bg12 {
+    background-image: url("../image/3254477902b9cf7c4dc619f681b0b294.png");
+}
+
+div.bg13 {
+    background-image: url("../image/66275690152f0da7ec66328c6dcf4126.png");
+}
+
+div.bg14 {
+    background-image: url("../image/a276cbc8081125b1d3634854ca55a84e.jpg");
+}
+
+div.bg15 {
+    background-image: url("../image/abf4f82fd932c55a8421ad36d220a4e9.jpg");
+}
+
+div.bg16 {
+    background-image: url("../image/acdc5cf053f275cc0536cd282facaa98.png");
+}
+
+div.bg17 {
+    background-image: url("../image/b255c98454fee408abdeb69e89404edd.jpg");
+}
+
+div.bg18 {
+    background-image: url("../image/b115205fb7ffe905ad7d6c129eb59231.jpg");
+}
+
+div.bg19 {
+    background-image: url("../image/cb43c8cd82a3040d688bade136a2eb27.png");
+}
+
+div.bg20 {
+    background-image: url("../image/db034b8c5e9321c1113a77d23b237cd0.jpg");
+}
+
+div.bg21 {
+    background-image: url("../image/fff6ced132306cfba99bbac8a009a725.jpg");
+}
+
+div.bg22 {
+    background-image: url("../image/yacht-and-water.jpg");
+}
+
+div.bg23 {
+    background-image: url("../image/6972550-sailing-in-ocean.jpg");
+}
+
+div.bg24 {
+    background-image: url("../image/7040597-sailing-sunrise.jpg");
+}
+
+div.bg25 {
+    background-image: url("../image/green%20grass%20background.jpg");
+}
+
+div.bg26 {
+    background-image: url("../image/Landscape-Switzerland-Mountains-Sunset-Wallpaper-1920x1200.jpg");
+}
+
+div.bg27 {
+    background-image: url("../image/sea_03.jpg");
+}
+
+div.bg28 {
+    background-image: url("../image/under%20water.jpg");
+}
+
+div.bg-living-room {
+    background-image: url("../image/blur%20living%20room.png");
+}
+
+div.bg-car-wallpaper {
+    background-image: url("../image/car_wallpaper_pictures_2070_backgroud_version.jpg");
+}
+
+div.bg-marketplace {
+    background-image: url("../image/marketplace2.jpg");
+    background-repeat: no-repeat;
+}
+
+div.bg-mustang {
+    background-image: url("../image/mustang.jpg");
+}
+
+div.bg-rpm {
+    background-image: url("../image/rpm%20background.jpg");
+}
+
+div.bg-sold {
+    background-image: url("../image/sold%20background.jpg");
+}
+
+div.bg-real {
+    background-image: url("../image/cash%20house.jpg");
+}
+
+div.bg-real1 {
+    background-image: url("../image/house.jpg");
+}
+
+div.bg-real2 {
+    background-image: url("../image/House-Made-of-Money.png");
+}
+
+div.bg-bc {
+    background-image: url("../image/business_credit.jpg");
+}
+
+div.bg-pb {
+    background-image: url("../image/pdf.jpg");
+}
+
+div.bg-mt {
+    background-image: url("../image/mt.jpg");
+}
+
+div.bg-funding {
+    background-image: url("../image/funding.jpg");
+}
+
+div.bg-market {
+    background-image: url("../image/marketplace.jpg");
+}
+
+div.bg-cs {
+    background-image: url("../image/credit_status.jpg");
+}
+
+div.bg-brokers {
+    background-image: url("../image/brokers.jpg");
+}
+
+div.bg-clients {
+    background-image: url("../image/clients.jpg");
+}
+
+div.bg-prospects {
+    background-image: url("../image/prospects.jpg");
+}
+
+div.bg-vf {
+    background-image: url("../image/vehicle.png");
+}
+
+div.bg-financial {
+    background-image: url("../image/financial.jpg");
+}
+
+div.bg-transactions {
+    background-image: url("../image/transactions.png");
+}
+
+div.bg-credit_monitor {
+    background-image: url("../image/credit_monitor.jpg");
+}
+
+div.bg-credit_repair_process {
+    background-image: url("../image/credit_repair_process.jpg");
+}
+
+div.bg-id_theft {
+    background-image: url("../image/id_theft.jpg");
+}
+
+div.bg-profile_numbers {
+    background-image: url("../image/profile_numbers.jpg");
+}
+
+div.bg-credit_resources {
+    background-image: url("../image/credit_resources.jpg");
+}
+
+div.bg-marketing_resources {
+    background-image: url("../image/marketing_resources.jpg");
+}
+
+div.bg-purchase_refinance {
+    background-image: url("../image/LeaseEquity-Home-Purchase.jpg");
+}
+
+div.bg-rental_investment {
+    background-image: url("../image/foreclosure-home-buying-negotiation.jpg");
+}
+
+div.bg-home_loan {
+    background-image: url("../image/approved-home-loan.jpg");
+}
+
+div.bg-help_home_owner {
+    background-image: url("../image/Help-for-homeowners.PNG");
+}
+
+div.bg-authorized_users {
+    background-image: url("../image/authorized-user.jpg");
+}
+
+div.bg-primaries {
+    background-image: url("../image/primaries.jpg");
+}
+
+div.bg-cars {
+    background-image: url("../image/cars.jpg");
+}
+
+div.bg-trucks {
+    background-image: url("../image/trucks.jpg");
+}
+
+div.bg-boats_rvs {
+    background-image: url("../image/boats.jpg");
+}
+
+div.bg-luxury {
+    background-image: url("../image/luxury.jpg");
+}
+
+div.bg-mail {
+    background-image: url("../image/Red-Blue-Textured.jpg");
+}
+
+div.bg-real_estate {
+    background-image: url("../image/gradient-blue-red-background.jpg");
+}
+
+div.bg-main {
+    background-image: url("../image/gradient-blue-red-background.jpg");
+}
+
+div.bg-banks {
+    background-image: url("../image/banks.jpg");
+}
+
+div.bg-credit_cards {
+    background-image: url("../image/credit_cards.jpg");
+}
+
+div.bg-furniture_stores {
+    background-image: url("../image/furniture_stores.jpeg");
+}
+
+div.bg-mall {
+    background-image: url("../image/mall.jpg");
+}
+
+div.bg-funding-main {
+    background-image: url("../image/Business-Hands-PC.jpg");
+}
+
+div.bg-monthly-tips-main {
+    background-image: url("../image/paper-notes.jpg");
+}
+
+div.bg-business-credit {
+    background-image: url("../image/growth-pic.jpg");
+}
+
+/*div[class^="bg-"], div[class*=" bg-"] {*/
+/*background-size: cover;*/
+/*}*/
+
+div[class^="bg"], div[class*=" bg"] {
+    background-size: cover;
+}
+
+div.bg-soon {
+    background-image: url("../image/coming-soon.jpg");
+    background-size: 100% 100%;
+}
+
+div.bg-upgrade {
+    background-image: url("../image/upgrade.png");
+    margin-left: 150px;
+    opacity: 1;
+}
+
+
+.inactive {
+    pointer-events: none;
+    cursor: default;
+}
+
+div.transbox {
+    opacity: .8;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.legend {
+    list-style: none;
+    padding: 0;
+    color: white;
+}
+
+.legend li {
+    float: left;
+    margin-right: 10px;
+}
+
+.legend span {
+    border: 1px solid #ccc;
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin: 2px;
+}
+
+/* your colors */
+.legend .blue {
+    background-color: rgb(0, 163, 203);
+}
+
+.legend .red {
+    background-color: rgb(188, 64, 49);
+}
+
+.legend .platinum {
+    background-color: #E5E4E2;
+}
+
+.small-box {
+    border-radius: 25px;
+    border: 3px solid rgb(207, 133, 15);
+    overflow: hidden;
+    z-index: 2;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.small-box:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 10000;
+}
+
+.small-box.blue {
+    border: 3px solid rgb(0, 163, 203);
+}
+
+.small-box.red {
+    border: 3px solid rgb(188, 64, 49);
+}
+
+.small-box.platinum {
+    border: 3px solid #E5E4E2;
+}
+
+.small-box.blue > .small-box-footer {
+    color: black;
+    background: rgb(0, 163, 203);
+    padding-left: 10px;
+}
+
+.small-box.red > .small-box-footer {
+    color: black;
+    background: rgb(188, 64, 49);
+    padding-left: 10px;
+}
+
+.small-box.platinum > .small-box-footer {
+    color: black;
+    background: #E5E4E2;
+    padding-left: 10px;
+}
+
+.small-box > .small-box-footer {
+    background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+    margin: 0;
+    padding: 3px 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.editable.editable-click:hover, a.editable-click:hover, a.editable-click:hover {
+    border-bottom: 1px dashed red;
+}
+
+.content-header > h1 {
+    color: white;
+}
+
+.breadcrumb > .active {
+    color: white;
+}
+

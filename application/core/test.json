@@ -1,0 +1,3 @@
+{
+  "message": "Database error occured with message :  Error Number: 1054 Unknown column 'Array' in 'where clause' DELETE FROM `cart_item`\nWHERE `id` = `Array` Filename: C:\/xampp\/htdocs\/americancpn\/application\/models\/CartModel.php Line Number: 36 "
+}
